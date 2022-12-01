@@ -1,0 +1,38 @@
+.quality {
+  position: relative;
+  margin-bottom: 168px;
+
+  height: 447px;
+  padding: 88px 655px 176px 85px;
+  background-color: #333d4b;
+  border-radius: 5px;
+
+  &__title {
+    margin-bottom: 32px;
+
+    font-family: "Fraunces_9pt";
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #fefcf7;
+  }
+
+  &__text {
+    width: 540px;
+
+    font-family: "Barlow-Regular";
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #fefcf7;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+
+  &__right {
+    position: absolute;
+    right: 85px;
+    top: -88px;
+  }
+}

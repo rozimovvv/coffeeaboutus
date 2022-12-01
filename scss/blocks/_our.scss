@@ -1,0 +1,32 @@
+.our {
+  padding: 0 85px;
+  margin-bottom: 120px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__title {
+    margin-bottom: 32px;
+
+    font-family: "Fraunces_9pt";
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #333d4b;
+  }
+
+  &__text {
+    width: 540px;
+
+    font-family: "Barlow-Regular";
+
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #333d4b;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+}
